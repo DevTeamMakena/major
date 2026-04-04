@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import DemoPopup from "@/components/DemoPopup";
 import ContactPopup from "@/components/ContactPopup";
 
@@ -43,13 +44,14 @@ export default function Home() {
 
         {/* Center logo */}
         <main style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>
-          {/*
-            Replace with your logo vector:
-            <Image src="/vectors/major-logo.svg" alt="major" width={180} height={72} />
-          */}
-          <span style={{ fontFamily: "var(--font)", fontWeight: 300, fontSize: 11, letterSpacing: "0.04em" }}>
-            major
-          </span>
+          <Image
+            src="/major-logo.png"
+            alt="major"
+            width={220}
+            height={86}
+            style={{ objectFit: "contain" }}
+            priority
+          />
         </main>
 
         {/* Footer */}
