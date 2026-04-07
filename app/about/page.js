@@ -11,7 +11,8 @@ const navStyle = {
 
 export default function About() {
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#fff' }}>
+    /* ADDED THE CLASS HERE */
+    <div className="page-fade-in" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#fff' }}>
 
       {/* NAV */}
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 24px' }}>
