@@ -49,10 +49,10 @@ export default function Talents() {
           </p>
         </div>
 
-        {/* Photo placeholder — replace src with your actual image */}
+        {/* UPDATED IMAGE PATH */}
         <div style={{ position: 'relative', width: '200px', height: '210px', marginBottom: '32px' }}>
           <Image
-            src="/images/talents-photo.png"
+            src="/images/talents-photo.png.jpg"
             alt="major talents"
             fill
             style={{ objectFit: 'cover' }}
