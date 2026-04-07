@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "major",
-  description: "major — campus marketplace",
- icons: {
-  icon: "/icon.png",   
-  apple: "/icon.png",
-},
+  icons: {
+    icon: "/icon.png",
+  },
+};
   openGraph: {
     title: "major",
     description: "major — campus marketplace",
