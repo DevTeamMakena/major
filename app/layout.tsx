@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata = {
   title: "major",
   icons: {
-    icon: "/icon.png",
+    icon: "/major-logo.png", // Or "/icon.png" if you have one
   },
 };
   openGraph: {
