@@ -7,27 +7,15 @@ import {
   EMAILJS_CONTACT_TEMPLATE,
 } from "@/lib/emailjs";
 
-interface Props {
-  onClose: () => void;
-}
+const empty = { firstName: "", lastName: "", phone: "", email: "", reason: "" };
 
-interface Fields {
-  firstName: string;
-  lastName: string;
-  phone: string;
-  email: string;
-  reason: string;
-}
-
-const empty: Fields = { firstName: "", lastName: "", phone: "", email: "", reason: "" };
-
-export default function ContactPopup({ onClose }: Props) {
-  const [fields, setFields] = useState<Fields>(empty);
-  const [errors, setErrors] = useState<Partial<Fields>>({});
-  const [status, setStatus] = useState<"idle" | "sending" | "done">("idle");
+export default function ContactPopup({ onClose }) {
+  const [fields, setFields] = useState(empty);
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState("idle");
 
   const validate = () => {
-    const e: Partial<Fields> = {};
+    const e = {};
     if (!fields.firstName.trim()) e.firstName = "field required";
     if (!fields.lastName.trim())  e.lastName  = "field required";
     if (!fields.phone.trim())     e.phone     = "field required";
@@ -61,11 +49,10 @@ export default function ContactPopup({ onClose }: Props) {
     }
   };
 
-  const setField = (k: keyof Fields) =>
-    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-      setFields(f => ({ ...f, [k]: e.target.value }));
-      setErrors(er => ({ ...er, [k]: undefined }));
-    };
+  const setField = (k) => (e) => {
+    setFields(f => ({ ...f, [k]: e.target.value }));
+    setErrors(er => ({ ...er, [k]: undefined }));
+  };
 
   return (
     <div className="overlay" onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
