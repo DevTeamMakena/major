@@ -49,13 +49,14 @@ export default function Talents() {
           </p>
         </div>
 
-        {/* UPDATED IMAGE PATH */}
+        {/* FIXED IMAGE PATH */}
         <div style={{ position: 'relative', width: '200px', height: '210px', marginBottom: '32px' }}>
           <Image
-            src="/images/talents-photo.png.jpg"
+            src="/images/talents-photo.png" 
             alt="major talents"
             fill
             style={{ objectFit: 'cover' }}
+            priority
           />
         </div>
 
