@@ -36,10 +36,10 @@ export default function About() {
       {/* CONTENT */}
       <main style={{ flex: 1, padding: '40px 32px', maxWidth: '480px', margin: '0 auto', width: '100%' }}>
 
-        {/* Welcome gift image */}
+        {/* Welcome gift image - Using portrait as placeholder since 6th photo is missing */}
         <div style={{ position: 'relative', width: '100%', height: '220px', marginBottom: '28px' }}>
           <Image
-            src="/images/about-welcome.png"
+            src="/images/about-portrait.png.jpg"
             alt="welcome"
             fill
             style={{ objectFit: 'cover' }}
@@ -69,7 +69,7 @@ export default function About() {
           </p>
           <div style={{ position: 'relative', width: '100px', height: '136px', flexShrink: 0 }}>
             <Image
-              src="/images/about-portrait.png"
+              src="/images/about-portrait.png.jpg"
               alt="makena"
               fill
               style={{ objectFit: 'cover' }}
@@ -84,7 +84,7 @@ export default function About() {
         {/* Bottom image */}
         <div style={{ position: 'relative', width: '130px', height: '177px', margin: '0 auto' }}>
           <Image
-            src="/images/about-bottom.png"
+            src="/images/about-bottom.png.jpg"
             alt="major"
             fill
             style={{ objectFit: 'cover' }}
