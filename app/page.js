@@ -15,7 +15,8 @@ export default function Home() {
       {popup === "demo"    && <DemoPopup    onClose={() => setPopup(null)} />}
       {popup === "contact" && <ContactPopup onClose={() => setPopup(null)} />}
 
-      <div style={{
+      {/* ADD THE CLASS RIGHT HERE */}
+      <div className="page-fade-in" style={{
         display: "flex",
         flexDirection: "column",
         height: "100vh",
@@ -58,7 +59,7 @@ export default function Home() {
           {/* The Two Side-by-Side Photos */}
           <div style={{ position: "relative", width: "180px", display: "flex", flexDirection: "column", gap: "12px" }}>
             
-            {/* Photo 1: Shop - CHANGED TO .PNG AND /IMAGES/ PATH */}
+            {/* Photo 1: Shop */}
             <div style={{ position: "relative", width: "180px", height: "135px" }}>
               <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
                 <Image
@@ -73,7 +74,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Photo 2: Sell - CHANGED TO .PNG AND /IMAGES/ PATH */}
+            {/* Photo 2: Sell */}
             <div style={{ position: "relative", width: "180px", height: "118px" }}>
               <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
                 <Image
