@@ -5,9 +5,10 @@ export const metadata: Metadata = {
   title: "major",
   description: "major — campus marketplace",
   icons: {
-    icon: "/favicon.ico",
+    // We changed this from /favicon.ico to /icon.png
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
-  // This section handles the preview image when texting the link
   openGraph: {
     title: "major",
     description: "major — campus marketplace",
