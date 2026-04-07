@@ -58,11 +58,11 @@ export default function Home() {
           {/* The Two Side-by-Side Photos */}
           <div style={{ position: "relative", width: "180px", display: "flex", flexDirection: "column", gap: "12px" }}>
             
-            {/* Photo 1: Shop */}
+            {/* Photo 1: Shop - CHANGED TO .PNG AND /IMAGES/ PATH */}
             <div style={{ position: "relative", width: "180px", height: "135px" }}>
               <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
                 <Image
-                  src="/home-photo-1.jpg"
+                  src="/images/home-photo-1.png"
                   alt="shop game day"
                   fill
                   style={{ objectFit: "cover", cursor: "pointer" }}
@@ -73,11 +73,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Photo 2: Sell */}
+            {/* Photo 2: Sell - CHANGED TO .PNG AND /IMAGES/ PATH */}
             <div style={{ position: "relative", width: "180px", height: "118px" }}>
               <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
                 <Image
-                  src="/home-photo-2.jpg"
+                  src="/images/home-photo-2.png"
                   alt="sell before graduation"
                   fill
                   style={{ objectFit: "cover", cursor: "pointer" }}
