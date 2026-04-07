@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata = {
   title: "major",
+  description: "major — campus marketplace",
   icons: {
-    icon: "/major-logo.png", // Or "/icon.png" if you have one
+    icon: "/major-logo.png",
   },
-};
   openGraph: {
     title: "major",
     description: "major — campus marketplace",
     images: [
       {
-        url: "/major-logo.png", 
+        url: "/major-logo.png",
         width: 1200,
         height: 630,
         alt: "major logo",
@@ -21,7 +20,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
