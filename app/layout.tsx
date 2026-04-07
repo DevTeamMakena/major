@@ -4,11 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "major",
   description: "major — campus marketplace",
-  icons: {
-    // We changed this from /favicon.ico to /icon.png
-    icon: "/icon.png",
-    apple: "/icon.png",
-  },
+ icons: {
+  icon: "/icon.png",   
+  apple: "/icon.png",
+},
   openGraph: {
     title: "major",
     description: "major — campus marketplace",
