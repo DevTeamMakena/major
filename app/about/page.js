@@ -57,7 +57,7 @@ export default function About() {
           color: '#000'
         }}>
           <p style={{ marginBottom: '24px' }}>
-            We provide the platform to acquire and sell essentials at subsidized rates.
+            We provide the platform to acquire and sell essentials at subsidized rates with environmental consciousness.
           </p>
           
           <p style={{ marginBottom: '24px' }}>
@@ -66,11 +66,11 @@ export default function About() {
           </p>
           
           <p style={{ marginBottom: '24px' }}>
-            While at Parsons, our founder, Makena, watched students scavenge for art materials to keep up with their projects. After returning to Los Angeles to transfer universities, she felt the absurdity of paying full price for a textbook to read a single chapter.
+            While at Parsons, our founder, Makena, watched students scavenge for art materials to keep up with their projects. After returning to Los Angeles to transfer universities, she saw some students fail quizzes simply because they could not afford the textbook. She personally bought a plethora of books only to read a single chapter. Later she became aware of the millions of tons of waste each year from dorm essentials and these books, that many cannot afford, harming our world and student potential.
           </p>
           
           <p>
-            The need was universal, even if the exact material needs or reasons for need differed across demographics. Makena’s response was to build a singular, transferable infrastructure, a constant for students on the move.
+            The need was universal, even if the exact material needs or reasons for need differed across demographics. Makena’s response was to build a singular, transferable infrastructure, a constant for students no matter the campus.
           </p>
         </div>
 
