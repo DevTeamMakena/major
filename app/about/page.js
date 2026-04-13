@@ -57,7 +57,7 @@ export default function About() {
           color: '#000'
         }}>
           <p style={{ marginBottom: '24px' }}>
-            We provide the platform to acquire and sell essentials at subsidized rates with environmental consciousness.
+            We provide the platform to acquire and sell essentials at subsidized rates with environmental consciousness in mind.
           </p>
           
           <p style={{ marginBottom: '24px' }}>
@@ -66,11 +66,11 @@ export default function About() {
           </p>
           
           <p style={{ marginBottom: '24px' }}>
-            While at Parsons, our founder, Makena, watched students scavenge for art materials to keep up with their projects. After returning to Los Angeles to transfer universities, she saw some students fail quizzes simply because they could not afford the textbook. She personally bought a plethora of books only to read a single chapter. Later she became aware of the millions of tons of waste each year from dorm essentials and these books, that many cannot afford, harming our world and student potential.
+            Our founder watched students scavenge for art materials to keep up with their projects. Later, home in Los Angeles, she saw some students fail quizzes simply because they could not afford the textbook. She personally bought a plethora of books only to read a single chapter. Later she became aware of the millions of tons of waste each year from dorm essentials and these books, that many cannot afford, harming our world and student potential.
           </p>
           
           <p>
-            The need was universal, even if the exact material needs or reasons for need differed across demographics. Makena’s response was to build a singular, transferable infrastructure, a constant for students no matter the campus.
+            The need for a campus ecosystem infrastructure was universal, even if the exact material needs or reasons for need differed across demographics. So our founder built a singular, transferable infrastructure, a constant for students no matter the campus.
           </p>
         </div>
 
