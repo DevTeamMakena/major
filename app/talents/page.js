@@ -68,7 +68,7 @@ export default function Talents() {
           letterSpacing: '0.05em',
           color: '#000',
         }}>
-          talent scouting has been paused until late spring 2026.
+          talent scouting has been paused.
         </p>
 
       </main>
